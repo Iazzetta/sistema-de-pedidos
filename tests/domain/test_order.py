@@ -1,6 +1,6 @@
-from src.domain.customer import Customer
-from src.domain.order import Order, OrderItem, OrderStatus, OrderStatusName
-from src.domain.product import Product
+from src.domains.customer import Customer
+from src.domains.order import Order, OrderItem, OrderStatus, OrderStatusName
+from src.domains.product import Product
 
 
 def test_should_create_order():

@@ -1,4 +1,4 @@
-from src.domain.base import DomainBase
+from src.domains.base import DomainBase
 
 
 class Product(DomainBase):
